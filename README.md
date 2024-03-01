@@ -7,6 +7,8 @@ Clone version of the ChatGPT platform for Generating the Text , image from text 
 
 "/login" Then User have to login to get the access token which allow them to auth to there resources.
 
+### To check the User Subscription Plan
+"/user-access/{user_id}"
 ## There are several APIs endpointa which allow user to create a text conversation , image generation and manage there history.
 "/vision"  
 "/stream/chat"  
@@ -31,3 +33,9 @@ There is prebuilt get API which shows the streaming of the text Content.
 
 
 ### There are some Get call which use to fetch the user data from the Database
+"/chat-data/{chat_id}   
+"/agents" Predefined prompt which help in Generating the context   
+"/chat-data-user/{user_id}"   
+"/chat/{chat_id}"   
+"/get-questions-data" 
+

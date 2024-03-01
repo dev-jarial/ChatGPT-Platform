@@ -470,19 +470,6 @@ async def openai_chat_completion(request: Request, db: SessionLocal = Depends(ge
         )
 
 
-@app.get("/chat-data")
-async def read_all_chat_data(db_session: Session = Depends(get_db)):
-    chat_data = db_session.query(ChatData).order_by(desc(ChatData.created_at)).all()
-    chat_data = jsonable_encoder(chat_data)
-    return JSONResponse(
-        content={
-            "status": "success",
-            "message": "chat data extraction successful",
-            "data": chat_data
-        },
-        status_code=200,
-    )
-
 
 @app.get("/chat-data/{chat_id}")
 async def read_chat_data_by_id(chat_id: int, db_session: Session = Depends(get_db)):

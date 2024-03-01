@@ -14,17 +14,17 @@ Clone version of the ChatGPT platform for Generating the Text , image from text 
 
 
 Apart from this I also provided the functionality of the User forgotten password
-"/forgot-passwd"
+"/forgot-passwd"  
 "/update-passwd"
 
-change password
+change password  
 /change-password/{user_id}"
 
-and Take the Subscription of the Service
+and Take the Subscription of the Service  
 "/update-plan/{user_id}" and 
 
-user can also delete the account 
+user can also delete the account  
 "/delete-user/{user_id}".
 
-There is prebuilt get API which shows the streaming of the text Content.
+There is prebuilt get API which shows the streaming of the text Content.  
 "/stream"

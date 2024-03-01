@@ -28,3 +28,6 @@ user can also delete the account
 
 There is prebuilt get API which shows the streaming of the text Content.   
 "/stream"
+
+
+### There are some Get call which use to fetch the user data from the Database

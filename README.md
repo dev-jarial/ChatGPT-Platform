@@ -8,8 +8,8 @@ Clone version of the ChatGPT platform for Generating the Text , image from text 
 "/login" Then User have to login to get the access token which allow them to auth to there resources.
 
 ## There are several APIs endpointa which allow user to create a text conversation , image generation and manage there history.
-"/vision"
-"/stream/chat"
+"/vision" \n
+"/stream/chat" \n
 "/stream/chat/{chat_id}" while the conversation is created 
 
 

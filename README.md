@@ -13,7 +13,7 @@ Clone version of the ChatGPT platform for Generating the Text , image from text 
 "/stream/chat/{chat_id}" while the conversation is created 
 
 
-Apart from this I also provided the functionality of the User forgotten password
+Apart from this I also provided the functionality of the User forgotten password   
 "/forgot-passwd"  
 "/update-passwd"
 

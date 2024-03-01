@@ -1,7 +1,8 @@
-# ChatGPT-Platform
+# ChatGPT-Platform with API Endoints
 Clone version of the ChatGPT platform for Generating the Text , image from text and text from image.
 
 ## The API are created on the FastAPI framework and DataBase is used for storing the conversation and file is SQLite3
+From requirements.txt --> install the all libs (I created this created project on Ubuntu , may work on all OS)
 
 "/signup" There is the Sign up functionality which allow user to register and then an email verification mail sent on the user registered email address. "/verify-otp" User have to verify the email address by putting the OTP within 3 mins (lib totp: created a secrect key for verify the otp)
 

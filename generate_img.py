@@ -1,13 +1,14 @@
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
-from models import UploadedFile, ChatData
+from Models.models import UploadedFile, ChatData
 import json
 from datetime import datetime
 import requests
 import uuid
 from prompt_from_image import get_prompt_description
 load_dotenv()
+
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)

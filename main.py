@@ -14,7 +14,7 @@ import base64
 import uuid
 from pydantic import BaseModel, EmailStr
 from DB.database import engine, SessionLocal, Base
-from models import User, UploadedFile, ChatData
+from Models.models import User, UploadedFile, ChatData
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
 from markdown import markdown
